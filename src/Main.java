@@ -15,5 +15,10 @@ public class Main {
         for (Employee employee : employees){
             System.out.println(employee);
         }
+
+        //New Employee data
+        Employee newEmployee = new Employee("E104", "Ali", "IT");
+
+
     }
 }
