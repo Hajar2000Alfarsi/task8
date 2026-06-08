@@ -41,5 +41,11 @@ public class Main {
             System.out.println("Department: " + newEmployee.getDepartment());
             System.out.println("Status: Created");
         }
+
+        //Display updated employees
+        System.out.println("\nFinal Employee List: ");
+        for (Employee employee : employees){
+            System.out.println(employee);
+        }
     }
 }
