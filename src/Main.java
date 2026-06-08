@@ -10,5 +10,10 @@ public class Main {
         employees.add(new Employee("E102", "Ahmed", "Finance"));
         employees.add(new Employee("E103", "John", "Sales"));
 
+        //Display Employees
+        System.out.println("Existing Employees: ");
+        for (Employee employee : employees){
+            System.out.println(employee);
+        }
     }
 }
